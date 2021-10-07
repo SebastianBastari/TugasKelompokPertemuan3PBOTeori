@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:controller="com.example.tugaskelompokpertemuan3.Controller1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="125.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" >
+   <children>
+      <Label layoutX="55.0" layoutY="18.0" text="Nama Siswa" />
+      <TextField fx:id="txtNama" layoutX="134.0" layoutY="14.0" prefHeight="25.0" prefWidth="429.0" />
+      <Label layoutX="206.0" layoutY="56.0" text="UTS" />
+      <TextField fx:id="txtKAT" layoutX="102.0" layoutY="52.0" prefHeight="25.0" prefWidth="64.0" />
+      <Label layoutX="55.0" layoutY="56.0" text="KAT" />
+      <TextField fx:id="txtUTS" layoutX="247.0" layoutY="52.0" prefHeight="25.0" prefWidth="64.0" />
+      <Label layoutX="358.0" layoutY="56.0" text="UAS" />
+      <TextField fx:id="txtUAS" layoutX="399.0" layoutY="52.0" prefHeight="25.0" prefWidth="64.0" />
+      <Button fx:id="submit" layoutX="55.0" layoutY="85.0" mnemonicParsing="false" onAction="#submit" prefHeight="25.0" prefWidth="512.0" text="Submit" />
+   </children>
+</AnchorPane>
